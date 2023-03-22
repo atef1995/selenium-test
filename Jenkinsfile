@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'python -m unittest test_website.py'
+                sh 'python -m unittest'
             }
           }
         }
